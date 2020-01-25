@@ -1,21 +1,21 @@
 # Description
 ```
-This is a Vue component for selecting tree data nodes
+This is a Vue component for checkbox
 ```
 # Install
 
 ``` 
-npm install webpagelovers-tree
+npm install webpagelovers-checkbox
 ```
 # Use
 
 ```
 # In main.js
-import WebpageloversTree from 'webpagelovers-tree'
-Vue.use(WebpageloversTree)
+import WlCheckbox from 'webpagelovers-checkbox'
+Vue.use(WlCheckbox)
 
 # In *.vue
-<webpagelovers-tree></webpagelovers-tree>  
+<wl-tree></wl-tree>  
 ```
 # Attributes
 

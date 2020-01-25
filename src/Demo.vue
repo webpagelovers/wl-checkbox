@@ -1,14 +1,14 @@
 <template>
-  <tree compute-type="just-disable-all-child" @change="change" @check="check"></tree>
+  <wl-checkbox></wl-checkbox>
 </template>
 
 <script>
-  import Tree from "@/components/Tree";
+  import WlCheckbox from "@/components/Checkbox";
 
   export default {
     name: "Demo",
     components: {
-      Tree
+      WlCheckbox
     },
     data() {
       return {}

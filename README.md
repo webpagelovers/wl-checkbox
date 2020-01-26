@@ -15,25 +15,23 @@ import WlCheckbox from 'webpagelovers-checkbox'
 Vue.use(WlCheckbox)
 
 # In *.vue
-<wl-tree></wl-tree>  
+<wl-checkbox></wl-checkbox>  
 ```
 # Attributes
 
 参数 | 说明 | 类型 | 可选值 |  默认值  
 ---- | ---- | ---- | ---- | ---- 
-data | 展示数据 | Object | |
+checked | 是否选中 | Boolean | true/false | false
+disabled | 是否禁用 | Boolean | true/false | false
 className | 自定义 class | String | |
-computeType | 计算节点的方式 |  String | default<br>just-check-one<br>only-check-one<br>just-check-child<br>just-check-all-child<br>just-disable-child|default  |
+label | 自定义描述 | String | |
 
 
 # Events
 
 事件| 说明 | 参数 
 ----| ---- | ----  
-check| 点击 checkBox  |  `item` - 返回当前节点   
-arrow-toggle|  切换箭头 | `item` - 返回当前节点    
-title-click | 点击标题    |  `item` - 返回当前节点 
-change | 监听被选中节点    |  `item/items` - 返回被选中的节点   
+change | 监听checked状态    |  `checked` - 返回被选中状态   
  
 
  

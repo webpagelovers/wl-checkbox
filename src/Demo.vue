@@ -1,5 +1,5 @@
 <template>
-  <wl-checkbox></wl-checkbox>
+  <wl-checkbox label="saaa" @change="change"></wl-checkbox>
 </template>
 
 <script>
@@ -14,11 +14,8 @@
       return {}
     },
     methods: {
-      change(checkedItems) {
-        console.log(checkedItems)
-      },
-      check(checkedItems) {
-        //console.log(checkedItems)
+      change(checked) {
+        //console.log(checked)
       }
     }
   }

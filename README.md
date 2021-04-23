@@ -5,13 +5,13 @@ This is a Vue component for checkbox
 # Install
 
 ``` 
-npm install webpagelovers-checkbox
+npm install wl-checkbox
 ```
 # Use
 
 ```
 # In main.js
-import WlCheckbox from 'webpagelovers-checkbox'
+import WlCheckbox from 'wl-checkbox'
 Vue.use(WlCheckbox)
 
 # In *.vue
